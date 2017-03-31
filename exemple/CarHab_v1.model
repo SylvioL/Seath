@@ -1,0 +1,1784 @@
+{
+    "values": {
+        "inputs": {
+            "spot": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 48.53990841099481, 
+                            "x": 1451.8760549534031
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "spot", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Spot"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "sample": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 883.8690479263126, 
+                            "x": 128.21494916228403
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "sample", 
+                            "shapetype": [
+                                2
+                            ], 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Sample"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "img3": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 43.00000000000001, 
+                            "x": 567.292018317801
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "img3", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Img3_S2A"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "img2": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 44.0, 
+                            "x": 345.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "img2", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Img2_S2A"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "img6": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 48.53990841099481, 
+                            "x": 1224.9999999999998
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "img6", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Img6_S2A"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "img5": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 46.24789009319379, 
+                            "x": 1004.9999999999998
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "img5", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Img5_S2A"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "img4": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 46.247890093193796, 
+                            "x": 787.292018317801
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "img4", 
+                            "showSublayersDialog": true, 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Img4_S2A"
+                        }, 
+                        "class": "processing.core.parameters.ParameterRaster"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {}, 
+        "group": "TP", 
+        "name": "CarHab v1", 
+        "algs": {
+            "OTBHARALICKTEXTUREEXTRACTION_1": {
+                "values": {
+                    "name": "OTBHARALICKTEXTUREEXTRACTION_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "-out": {
+                            "values": {
+                                "description": "Haralick", 
+                                "pos": {
+                                    "values": {
+                                        "y": 262.26503357005987, 
+                                        "x": 1688.6287387279779
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 157.0697113286982, 
+                            "x": 1687.7169951771923
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "-parameters.nbbin": 16.0, 
+                        "-parameters.max": 831.0, 
+                        "-in": {
+                            "values": {
+                                "name": "spot"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "-parameters.yoff": 1.0, 
+                        "-channel": 3.0, 
+                        "-parameters.xoff": 1.0, 
+                        "-ram": 128.0, 
+                        "-parameters.min": 0.0, 
+                        "-texture": 0, 
+                        "-parameters.yrad": 2.0, 
+                        "-parameters.xrad": 2.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "otb:haralicktextureextraction", 
+                    "description": "Haralick Texture Extraction Simple"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SCRIPTSEATHQGIS_2": {
+                "values": {
+                    "name": "SCRIPTSEATHQGIS_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1039.2514719276692, 
+                            "x": 1445.778082859466
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "Classe_1": "2", 
+                        "Classe_2": "3,4", 
+                        "Nom_du_champs_des_statistiques": "entmean", 
+                        "Shapefile_en_entree": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_13", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "Nombre_echantillons": 30.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "script:seathqgis", 
+                    "description": "seath qgis HL"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SCRIPTSEATHQGIS_3": {
+                "values": {
+                    "name": "SCRIPTSEATHQGIS_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1034.5238507611464, 
+                            "x": 2176.6916075504732
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "Classe_1": "3", 
+                        "Classe_2": "4", 
+                        "Nom_du_champs_des_statistiques": "sdmean", 
+                        "Shapefile_en_entree": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_13", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "Nombre_echantillons": 20.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "script:seathqgis", 
+                    "description": "seath qgis MD"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SCRIPTSEATHQGIS_1": {
+                "values": {
+                    "name": "SCRIPTSEATHQGIS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1057.1180416335876, 
+                            "x": 626.8675981933736
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "Classe_1": "1", 
+                        "Classe_2": "2", 
+                        "Nom_du_champs_des_statistiques": "minmean", 
+                        "Shapefile_en_entree": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_13", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "Nombre_echantillons": 30.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "script:seathqgis", 
+                    "description": "seath qgis CH"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISFIELDCALCULATOR_1": {
+                "values": {
+                    "name": "QGISFIELDCALCULATOR_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1160.7097542856316, 
+                            "x": 912.4087540308931
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "FIELD_TYPE": 1, 
+                        "NEW_FIELD": true, 
+                        "INPUT_LAYER": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_10", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "FIELD_PRECISION": 0.0, 
+                        "FIELD_LENGTH": 2.0, 
+                        "FORMULA": {
+                            "values": {
+                                "alg": "SCRIPTSEATHQGIS_1", 
+                                "output": "th"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "FIELD_NAME": "CLASSIF"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:fieldcalculator", 
+                    "description": "Field calculator CH"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISFIELDCALCULATOR_2": {
+                "values": {
+                    "name": "QGISFIELDCALCULATOR_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1143.411138836953, 
+                            "x": 1654.0974166780327
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "FIELD_TYPE": 1, 
+                        "NEW_FIELD": false, 
+                        "INPUT_LAYER": {
+                            "values": {
+                                "alg": "QGISEXTRACTBYATTRIBUTE_2", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "FIELD_PRECISION": 0.0, 
+                        "FIELD_LENGTH": 2.0, 
+                        "FORMULA": {
+                            "values": {
+                                "alg": "SCRIPTSEATHQGIS_2", 
+                                "output": "th"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "FIELD_NAME": "CLASSIF"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:fieldcalculator", 
+                    "description": "Field calculator HL"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISFIELDCALCULATOR_3": {
+                "values": {
+                    "name": "QGISFIELDCALCULATOR_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1138.68351767043, 
+                            "x": 2407.4667455066055
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "FIELD_TYPE": 1, 
+                        "NEW_FIELD": false, 
+                        "INPUT_LAYER": {
+                            "values": {
+                                "alg": "QGISEXTRACTBYATTRIBUTE_4", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "FIELD_PRECISION": 0.0, 
+                        "FIELD_LENGTH": 2.0, 
+                        "FORMULA": {
+                            "values": {
+                                "alg": "SCRIPTSEATHQGIS_3", 
+                                "output": "th"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "FIELD_NAME": "CLASSIF"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:fieldcalculator", 
+                    "description": "Field calculator MD"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISMERGEVECTORLAYERS_1": {
+                "values": {
+                    "name": "QGISMERGEVECTORLAYERS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT": {
+                            "values": {
+                                "description": "FB Physio", 
+                                "pos": {
+                                    "values": {
+                                        "y": 1519.2163523167983, 
+                                        "x": 2039.9091538541775
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 1474.2163523167983, 
+                            "x": 1839.9091538541775
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "LAYERS": [
+                            {
+                                "values": {
+                                    "alg": "QGISEXTRACTBYATTRIBUTE_1", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "QGISEXTRACTBYATTRIBUTE_3", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "QGISEXTRACTBYATTRIBUTE_5", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "QGISEXTRACTBYATTRIBUTE_6", 
+                                    "output": "OUTPUT"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }
+                        ]
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:mergevectorlayers", 
+                    "description": "Merge vector layers"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "OTBRADIOMETRICINDICES_7": {
+                "values": {
+                    "name": "OTBRADIOMETRICINDICES_7", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "-out": {
+                            "values": {
+                                "description": "NDVI Spot", 
+                                "pos": {
+                                    "values": {
+                                        "y": 261.5489698440678, 
+                                        "x": 2146.4932268035923
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 159.08156741135963, 
+                            "x": 2142.241566340004
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "-channels.nir": 4.0, 
+                        "-channels.mir": 1.0, 
+                        "-in": {
+                            "values": {
+                                "name": "spot"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "-list": 0, 
+                        "-channels.blue": 1.0, 
+                        "-ram": 128.0, 
+                        "-channels.green": 2.0, 
+                        "-channels.red": 3.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "otb:radiometricindices", 
+                    "description": "NDVI Spot"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "OTBRADIOMETRICINDICES_6": {
+                "values": {
+                    "name": "OTBRADIOMETRICINDICES_6", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 154.98049337612923, 
+                            "x": 1235.286531923839
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "-channels.nir": 4.0, 
+                        "-channels.mir": 1.0, 
+                        "-in": {
+                            "values": {
+                                "name": "img6"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "-list": 0, 
+                        "-channels.blue": 1.0, 
+                        "-ram": 128.0, 
+                        "-channels.green": 2.0, 
+                        "-channels.red": 3.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "otb:radiometricindices", 
+                    "description": "NDVI_img6"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "OTBRADIOMETRICINDICES_5": {
+                "values": {
+                    "name": "OTBRADIOMETRICINDICES_5", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 156.32314753265734, 
+                            "x": 1009.5415307787471
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "-channels.nir": 4.0, 
+                        "-channels.mir": 1.0, 
+                        "-in": {
+                            "values": {
+                                "name": "img5"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "-list": 0, 
+                        "-channels.blue": 1.0, 
+                        "-ram": 128.0, 
+                        "-channels.green": 2.0, 
+                        "-channels.red": 3.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "otb:radiometricindices", 
+                    "description": "NDVI_img5"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "OTBRADIOMETRICINDICES_4": {
+                "values": {
+                    "name": "OTBRADIOMETRICINDICES_4", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 157.7822432567084, 
+                            "x": 793.1163383524055
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "-channels.nir": 4.0, 
+                        "-channels.mir": 1.0, 
+                        "-in": {
+                            "values": {
+                                "name": "img4"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "-list": 0, 
+                        "-channels.blue": 1.0, 
+                        "-ram": 128.0, 
+                        "-channels.green": 2.0, 
+                        "-channels.red": 3.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "otb:radiometricindices", 
+                    "description": "NDVI_img4"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "OTBRADIOMETRICINDICES_3": {
+                "values": {
+                    "name": "OTBRADIOMETRICINDICES_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 157.1248974132367, 
+                            "x": 572.4510508141857
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "-channels.nir": 4.0, 
+                        "-channels.mir": 1.0, 
+                        "-in": {
+                            "values": {
+                                "name": "img3"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "-list": 0, 
+                        "-channels.blue": 1.0, 
+                        "-ram": 128.0, 
+                        "-channels.green": 2.0, 
+                        "-channels.red": 3.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "otb:radiometricindices", 
+                    "description": "NDVI_img3"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "OTBRADIOMETRICINDICES_2": {
+                "values": {
+                    "name": "OTBRADIOMETRICINDICES_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 160.275242278469, 
+                            "x": 345.21432179604074
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "-channels.nir": 4.0, 
+                        "-channels.mir": 1.0, 
+                        "-in": {
+                            "values": {
+                                "name": "img2"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "-list": 0, 
+                        "-channels.blue": 1.0, 
+                        "-ram": 128.0, 
+                        "-channels.green": 2.0, 
+                        "-channels.red": 3.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "otb:radiometricindices", 
+                    "description": "NDVI_img2"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_14": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_14", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 782.2437125410386, 
+                            "x": 1928.5346635433705
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBSFSTEXTUREEXTRACTION_1", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "psi", 
+                        "RASTER_BAND": 3.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_8", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics Sample PSI"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_13": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_13", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT_LAYER": {
+                            "values": {
+                                "description": "Statistiques sur les echantillons", 
+                                "pos": {
+                                    "values": {
+                                        "y": 827.2437125410386, 
+                                        "x": 2581.0904577009474
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 782.2437125410386, 
+                            "x": 2381.0904577009474
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBRADIOMETRICINDICES_7", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "ndvi", 
+                        "RASTER_BAND": 1.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_9", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics Sample NDVI Spot"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_12": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_12", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 784.0395688670608, 
+                            "x": 1468.7954440817043
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBHARALICKTEXTUREEXTRACTION_1", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "egy", 
+                        "RASTER_BAND": 1.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_11", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics Sample Egy"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_11": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_11", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 789.4271378451275, 
+                            "x": 804.3286034535167
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBBANDMATH_2", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "max", 
+                        "RASTER_BAND": 1.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_7", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics Sample Max"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_10": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_10", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT_LAYER": {
+                            "values": {
+                                "description": "Statistiques sur la segmentation", 
+                                "pos": {
+                                    "values": {
+                                        "y": 660.2290742209806, 
+                                        "x": 2500.276923029951
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 590.0870856566708, 
+                            "x": 2368.5194634187924
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBRADIOMETRICINDICES_7", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "ndvi", 
+                        "RASTER_BAND": 1.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_6", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics NDVI Spot"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "OTBBANDMATH_2": {
+                "values": {
+                    "name": "OTBBANDMATH_2", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "-out": {
+                            "values": {
+                                "description": "Max NDVI S2A", 
+                                "pos": {
+                                    "values": {
+                                        "y": 435.9674227038438, 
+                                        "x": 992.4239358742798
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 390.9674227038438, 
+                            "x": 792.4239358742798
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "-ram": 128.0, 
+                        "-il": [
+                            {
+                                "values": {
+                                    "alg": "OTBRADIOMETRICINDICES_6", 
+                                    "output": "-out"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "OTBRADIOMETRICINDICES_5", 
+                                    "output": "-out"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "OTBRADIOMETRICINDICES_4", 
+                                    "output": "-out"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "OTBRADIOMETRICINDICES_3", 
+                                    "output": "-out"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "OTBRADIOMETRICINDICES_2", 
+                                    "output": "-out"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }
+                        ], 
+                        "-exp": "max(im1b1,im2b1,im3b1,im4b1,im5b1)"
+                    }, 
+                    "active": true, 
+                    "consoleName": "otb:bandmath", 
+                    "description": "Max"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "OTBBANDMATH_1": {
+                "values": {
+                    "name": "OTBBANDMATH_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "-out": {
+                            "values": {
+                                "description": "Min NDVI S2A", 
+                                "pos": {
+                                    "values": {
+                                        "y": 425.6626581468721, 
+                                        "x": 554.3693112287489
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 380.6626581468721, 
+                            "x": 354.36931122874887
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "-ram": 128.0, 
+                        "-il": [
+                            {
+                                "values": {
+                                    "alg": "OTBRADIOMETRICINDICES_6", 
+                                    "output": "-out"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "OTBRADIOMETRICINDICES_5", 
+                                    "output": "-out"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "OTBRADIOMETRICINDICES_4", 
+                                    "output": "-out"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "OTBRADIOMETRICINDICES_3", 
+                                    "output": "-out"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }, 
+                            {
+                                "values": {
+                                    "alg": "OTBRADIOMETRICINDICES_2", 
+                                    "output": "-out"
+                                }, 
+                                "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                            }
+                        ], 
+                        "-exp": "min(im1b1,im2b1,im3b1,im4b1,im5b1)"
+                    }, 
+                    "active": true, 
+                    "consoleName": "otb:bandmath", 
+                    "description": "Min"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "OTBSEGMENTATIONMEANSHIFT_1": {
+                "values": {
+                    "name": "OTBSEGMENTATIONMEANSHIFT_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "-mode.vector.out": {
+                            "values": {
+                                "description": "Segmentation", 
+                                "pos": {
+                                    "values": {
+                                        "y": 258.8360893390219, 
+                                        "x": 1447.345160037402
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 156.8360893390219, 
+                            "x": 1457.3451600374021
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "-mode.vector.startlabel": 1.0, 
+                        "-mode.vector.simplify": 0.1, 
+                        "-mode.vector.outmode": 1, 
+                        "-mode": 0, 
+                        "-filter.meanshift.thres": 0.1, 
+                        "-mode.vector.layername": "layer", 
+                        "-mode.vector.ogroptions": null, 
+                        "-in": {
+                            "values": {
+                                "name": "spot"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "-mode.vector.fieldname": "DN", 
+                        "-filter.meanshift.maxiter": 100.0, 
+                        "-mode.vector.inmask": null, 
+                        "-filter.meanshift.spatialr": 5.0, 
+                        "-filter.meanshift.minsize": 6700.0, 
+                        "-filter.meanshift.ranger": 15.0, 
+                        "-mode.vector.minsize": 1.0, 
+                        "-mode.vector.stitch": true, 
+                        "-mode.vector.neighbor": true, 
+                        "-filter": 0, 
+                        "-mode.vector.tilesize": 4500.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "otb:segmentationmeanshift", 
+                    "description": "Segmentation (meanshift)"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_7": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_7", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 781.5116906614855, 
+                            "x": 359.0808619420991
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBBANDMATH_1", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "min", 
+                        "RASTER_BAND": 1.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "name": "sample"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics Sample Min"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_6": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_6", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 588.1271617083346, 
+                            "x": 2141.460665456774
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBSFSTEXTUREEXTRACTION_1", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "sd", 
+                        "RASTER_BAND": 6.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_5", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics SD"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_5": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_5", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 588.1271617083346, 
+                            "x": 1927.4606654567742
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBSFSTEXTUREEXTRACTION_1", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "psi", 
+                        "RASTER_BAND": 3.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_4", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics PSI"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_4": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_4", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 584.054776970436, 
+                            "x": 1707.0645266137453
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBHARALICKTEXTUREEXTRACTION_1", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "ent", 
+                        "RASTER_BAND": 2.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_3", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics Ent"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_3": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 583.5324775804588, 
+                            "x": 1491.4685862223018
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBHARALICKTEXTUREEXTRACTION_1", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "egy", 
+                        "RASTER_BAND": 1.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_2", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics Egy"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_2": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 578.444505794974, 
+                            "x": 793.8422124248495
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBBANDMATH_2", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "max", 
+                        "RASTER_BAND": 1.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_1", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics Max"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_1": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 575.1271617083346, 
+                            "x": 355.0412911849778
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBBANDMATH_1", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "min", 
+                        "RASTER_BAND": 1.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "alg": "OTBSEGMENTATIONMEANSHIFT_1", 
+                                "output": "-mode.vector.out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics Min"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_9": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_9", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 782.9199780094413, 
+                            "x": 2148.8482344348404
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBSFSTEXTUREEXTRACTION_1", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "sd", 
+                        "RASTER_BAND": 6.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_14", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics Sample SD"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISZONALSTATISTICS_8": {
+                "values": {
+                    "name": "QGISZONALSTATISTICS_8", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 784.5116906614855, 
+                            "x": 1705.4606654567742
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_RASTER": {
+                            "values": {
+                                "alg": "OTBHARALICKTEXTUREEXTRACTION_1", 
+                                "output": "-out"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "COLUMN_PREFIX": "ent", 
+                        "RASTER_BAND": 2.0, 
+                        "GLOBAL_EXTENT": false, 
+                        "INPUT_VECTOR": {
+                            "values": {
+                                "alg": "QGISZONALSTATISTICS_12", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:zonalstatistics", 
+                    "description": "Zonal Statistics Sample Ent"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "OTBSFSTEXTUREEXTRACTION_1": {
+                "values": {
+                    "name": "OTBSFSTEXTUREEXTRACTION_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "-out": {
+                            "values": {
+                                "description": "SFS", 
+                                "pos": {
+                                    "values": {
+                                        "y": 260.2650335700598, 
+                                        "x": 1918.2484639609625
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 158.94576628210115, 
+                            "x": 1916.4606654567742
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "-parameters.alpha": 1.0, 
+                        "-in": {
+                            "values": {
+                                "name": "spot"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "-channel": 3.0, 
+                        "-parameters.nbdir": 20.0, 
+                        "-parameters.spethre": 50.0, 
+                        "-parameters.maxcons": 5.0, 
+                        "-ram": 128.0, 
+                        "-parameters.spathre": 100.0
+                    }, 
+                    "active": true, 
+                    "consoleName": "otb:sfstextureextraction", 
+                    "description": "SFS Texture Extraction"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISEXTRACTBYATTRIBUTE_1": {
+                "values": {
+                    "name": "QGISEXTRACTBYATTRIBUTE_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1324.7180623308134, 
+                            "x": 914.0535880045716
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "OPERATOR": 0, 
+                        "INPUT": {
+                            "values": {
+                                "alg": "QGISFIELDCALCULATOR_1", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "VALUE": "1", 
+                        "FIELD": "CLASSIF"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:extractbyattribute", 
+                    "description": "Extract by attribute C"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISEXTRACTBYATTRIBUTE_3": {
+                "values": {
+                    "name": "QGISEXTRACTBYATTRIBUTE_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1321.7616191599648, 
+                            "x": 1661.2601249801787
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "OPERATOR": 0, 
+                        "INPUT": {
+                            "values": {
+                                "alg": "QGISFIELDCALCULATOR_2", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "VALUE": "2", 
+                        "FIELD": "CLASSIF"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:extractbyattribute", 
+                    "description": "Extract by attribute H."
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISEXTRACTBYATTRIBUTE_2": {
+                "values": {
+                    "name": "QGISEXTRACTBYATTRIBUTE_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1254.443944779024, 
+                            "x": 1247.454420697344
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "OPERATOR": 0, 
+                        "INPUT": {
+                            "values": {
+                                "alg": "QGISFIELDCALCULATOR_1", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "VALUE": "2", 
+                        "FIELD": "CLASSIF"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:extractbyattribute", 
+                    "description": "Extract by attribute H"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISEXTRACTBYATTRIBUTE_5": {
+                "values": {
+                    "name": "QGISEXTRACTBYATTRIBUTE_5", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1309.8820295633282, 
+                            "x": 2419.5739275654687
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "OPERATOR": 0, 
+                        "INPUT": {
+                            "values": {
+                                "alg": "QGISFIELDCALCULATOR_3", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "VALUE": "3", 
+                        "FIELD": "CLASSIF"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:extractbyattribute", 
+                    "description": "Extract by attribute M"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISEXTRACTBYATTRIBUTE_4": {
+                "values": {
+                    "name": "QGISEXTRACTBYATTRIBUTE_4", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1230.6847655857525, 
+                            "x": 2073.0858976635736
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "OPERATOR": 0, 
+                        "INPUT": {
+                            "values": {
+                                "alg": "QGISFIELDCALCULATOR_2", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "VALUE": "3", 
+                        "FIELD": "CLASSIF"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:extractbyattribute", 
+                    "description": "Extract by attribute L"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISEXTRACTBYATTRIBUTE_6": {
+                "values": {
+                    "name": "QGISEXTRACTBYATTRIBUTE_6", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 1309.8820295633282, 
+                            "x": 2689.0722175514534
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "OPERATOR": 0, 
+                        "INPUT": {
+                            "values": {
+                                "alg": "QGISFIELDCALCULATOR_3", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "VALUE": "4", 
+                        "FIELD": "CLASSIF"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:extractbyattribute", 
+                    "description": "Extract by attribute D"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}
